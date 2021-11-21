@@ -1,7 +1,7 @@
 const express = require('express'); 
-const router = express.router; 
+const router = express.Router(); 
 const controller = require('../controllers/travel'); 
 
 /* GET home page. */ 
-router.get('/', controller.travel); //Throwing Error 11/14 
+router.get('/', controller.travel); 
 module.exports = router; 
