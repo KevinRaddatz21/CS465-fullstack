@@ -1,5 +1,5 @@
 const mongoose = require('mongoose'); 
-
+//mongoose.connect('mongodb://localhost:27017/travlr')
 
 const tripSchema = new mongoose.Schema({
     code: { type: String, required: true, index: true},
